@@ -1,0 +1,176 @@
+{
+  /*****************************************************
+     Settings for built-in behavior + extensions
+  ******************************************************/
+  /* Visuals + layout
+  ----------------------------------------------------*/
+  "breadcrumbs.enabled": false,
+  "diffEditor.renderSideBySide": true,
+  "editor.fontSize": 18,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.matchBrackets": "never",
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": false,
+  "explorer.openEditors.visible": 0,
+  "scm.diffDecorationsGutterVisibility": "hover",
+  "scm.diffDecorations": "gutter",
+  "window.zoomLevel": 2,
+  "window.title": "${activeEditorMedium}",
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.visible": false,
+  /* Core behavior
+  ----------------------------------------------------*/
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.startupEditor": "none",
+  "git.enableSmartCommit": true,
+  "editor.tabCompletion": "onlySnippets",
+  // "editor.quickSuggestions": {
+  //   "other": false,
+  //   "comments": false,
+  //   "strings": false
+  // },
+  "search.exclude": {
+    "dist": true,
+    "static": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "keyboard.dispatch": "keyCode",
+  "git.confirmSync": false,
+  /* Formatting
+  ----------------------------------------------------*/
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "html.format.enable": true,
+  "editor.formatOnSave": true,
+  "css.validate": false,
+  /* JavaScript
+  ----------------------------------------------------*/
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  /* Handlebars
+  ----------------------------------------------------*/
+  /* Emmet
+  ----------------------------------------------------*/
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  /*****************************************************
+  Settings for third-party extensions
+  ******************************************************/
+  /* Prettier
+  ----------------------------------------------------*/
+  "prettier.disableLanguages": [],
+  /* TailwindCSS
+  ----------------------------------------------------*/
+  "tailwindCSS.emmetCompletions": true,
+  /* Vim
+  ----------------------------------------------------*/
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["N"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    }, // moveLineDown
+    {
+      "before": ["P"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    }, // moveLineUp
+    {
+      "before": ["u"],
+      "after": [],
+      "commands": [
+        {
+          "command": "undo"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "%"],
+      "commands": [
+        {
+          "command": "editor.emmet.action.matchTag"
+        }
+      ]
+    },
+
+    {
+      "before": ["<C-r>"],
+      "after": [],
+      "commands": [
+        {
+          "command": "redo"
+        }
+      ]
+    }
+  ],
+  /* Sync
+  ----------------------------------------------------*/
+  "sync.gist": "381689dc8fb5ae466a6c8833e84bd612",
+  /* Other
+  ----------------------------------------------------*/
+  "eslint.alwaysShowStatus": true,
+  "els.codeLens.relatedFiles": false,
+  "editor.accessibilitySupport": "off",
+  "editor.autoClosingQuotes": "never",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.guides.indentation": false,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.inlineSuggest.enabled": true,
+  "vim.enableNeovim": true,
+  "editor.cursorSurroundingLines": 10000,
+  "editor.lineNumbers": "relative",
+  "editor.suggest.showStatusBar": true,
+  "zenMode.hideStatusBar": false,
+  "gruvboxMaterial.italicKeywords": true,
+  "window.commandCenter": true,
+  "workbench.colorTheme": "Gruvbox Material Dark",
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingDelete": "never",
+  "editor.autoClosingOvertype": "never",
+  "vim.cursorStylePerMode.insert": "block",
+  "typescript.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": false,
+  "workbench.editor.showTabs": false,
+  "terminal.integrated.fontSize": 18,
+  "gruvboxMaterial.darkContrast": "hard",
+  // "auto-close-tag.activationOnLanguage": [
+
+  //   "xml",
+  //   "php",
+  //   "blade",
+  //   "ejs",
+  //   "jinja",
+  //   "javascript",
+  //   "javascriptreact",
+  //   "typescript",
+  //   "typescriptreact",
+  //   "plaintext",
+  //   "markdown",
+  //   "vue",
+  //   "liquid",
+  //   "erb",
+  //   "lang-cfml",
+  //   "cfml",
+  //   "HTML (EEx)",
+  //   "HTML (Eex)",
+  //   "plist"
+  // ]
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#00000000",
+    "editor.lineHighlightBorder": "#3a3a3c",
+    "editor.background": "#0B0B0B",
+    "editorGutter.background": "#0B0B0B",
+    "sideBar.background": "#0B0B0B",
+    "terminal.background": "#0B0B0B",
+    "panel.background": "#0B0B0B"
+  },
+  "editor.fontFamily": "ubuntu mono",
+  "redhat.telemetry.enabled": true,
+  "terminal.integrated.fontFamily": "UbuntuMono Nerd Font",
+  "editor.lightbulb.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true
+}
